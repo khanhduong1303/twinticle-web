@@ -1,7 +1,7 @@
 import React from "react"
 import gql from "graphql-tag";
 import { Query } from "react-apollo";
-import { Card } from "react-bootstrap";
+import { Card, Image, Row, Col, Badge } from "react-bootstrap";
 import { withRouter } from "react-router-dom";
 const LIST_POSTS = gql`
 {
